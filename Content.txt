@@ -1,0 +1,19 @@
+2.1 First Steps
+2.2 Writing the Views
+2.3 Adding Functionality by Testing
+3.1 Editing and Deleting Tags
+3.2 Creating Tags
+4.1 Setting Up the Dependencies
+4.2 Implementing the Post Repository
+4.3 Writing the Tag Repository
+5.1 Testing the Post Functionality
+5.2 Testing the Tag Functionality
+6.1 Editing and Deleting Users
+6.2 Creating Users
+6.3 Managing a User's Roles
+7.1 Logging In and Out
+7.2 Securing Our Application
+8.1 Incorporating a Menu
+8.2 Adding JavaScript
+9.1 Displaying the Published Posts
+9.2 Paging Posts

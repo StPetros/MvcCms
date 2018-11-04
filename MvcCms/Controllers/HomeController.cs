@@ -26,8 +26,6 @@ namespace MvcCms.Controllers
         [Route("")]
         public async Task<ActionResult> Index()
         {
-
-
             var posts = await _posts.GetPageAsync(1, _pageSize);
 
             ViewBag.PreviousPage = 0;

@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<string>
-
-@Html.Raw(string.Join(", ", Model.Select(s => 
-    Html.ActionLink(s, "tag", new { controller = "home", tagId = s}))))
+@{
+    var md = Model;
+}
+@Html.Raw(string.Join(", ", Model.Select(s =>Html.ActionLink(s, "tag", new { controller = "home", tagId = s}))))
